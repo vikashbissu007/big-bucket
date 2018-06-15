@@ -16,6 +16,13 @@
 
 	<dependencies>
 
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>net.com</groupId>
+			<artifactId>bucketbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- javaee-api -->
 		<dependency>
 			<groupId>javax</groupId>

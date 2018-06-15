@@ -14,8 +14,9 @@
     http://www.springframework.org/schema/webflow-config/spring-webflow-config.xsd        
     ">
 
-	<context:component-scan base-package="net.com.bigbucket"/>
-
+	<context:component-scan base-package="net.com.bigbucket.controller"/>
+	<context:component-scan base-package="net.com.bucketbackend.daoimpl"/>
+	
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		
